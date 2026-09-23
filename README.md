@@ -59,7 +59,11 @@ Skill 正文以中文写指令，**输出跟随用户语言**。不要再装一�
 ### 方法 B：GitHub
 
 ```text
-从 https://github.com/<owner>/<repo>/tree/main/crypto-incentive-decode 安装 skill
+从这 4 个地址安装 skill，保持原文件夹名：
+https://github.com/dgu0323/crypto-survival-skills/tree/main/crypto-incentive-decode
+https://github.com/dgu0323/crypto-survival-skills/tree/main/crypto-niche-builder
+https://github.com/dgu0323/crypto-survival-skills/tree/main/crypto-profit-system
+https://github.com/dgu0323/crypto-survival-skills/tree/main/crypto-project-triage
 ```
 
 同名目录已存在时安装会失败。私有仓库需要 `GITHUB_TOKEN` 或 `GH_TOKEN`。

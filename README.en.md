@@ -57,7 +57,11 @@ Ask before overwriting same-name folders. Then list dirs and check name matches 
 ### B. GitHub
 
 ```text
-Install the skill from https://github.com/<owner>/<repo>/tree/main/crypto-incentive-decode
+Install the 4 skills from these URLs, keep the original folder names:
+https://github.com/dgu0323/crypto-survival-skills/tree/main/crypto-incentive-decode
+https://github.com/dgu0323/crypto-survival-skills/tree/main/crypto-niche-builder
+https://github.com/dgu0323/crypto-survival-skills/tree/main/crypto-profit-system
+https://github.com/dgu0323/crypto-survival-skills/tree/main/crypto-project-triage
 ```
 
 Existing same-name folders abort the install. Private repos need `GITHUB_TOKEN` or `GH_TOKEN`.
