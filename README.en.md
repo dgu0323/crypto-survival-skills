@@ -3,11 +3,7 @@
 Workflow skills for Grok. They locate you in the Web3 / crypto food chain. They do not pick tokens.
 
 - Install into the Grok user skills directory (`.grok/skills/`)
-- Languages: [Chinese README](./README.md) · [English README](./README.en.md)
-
-Skill bodies are written in Chinese. **Output follows the user's language.** Do not install a second English-only copy.
-
-User prompts carry source material only. Output format lives in `SKILL.md`. Do not restate the template in chat.
+- Languages: [中文](./README.md) · [English](./README.en.md)
 
 ## Source and disclaimer
 
@@ -40,12 +36,6 @@ About to spend time or cash  -> profit-system
 
 ## Install
 
-```text
-/home/workdir/.grok/skills/<skill-name>/
-```
-
-One folder per skill. Folder name must match `name` in `SKILL.md`. Keep `references/`. Start a **new conversation** after install.
-
 ### A. Drop the zip on Grok
 
 ```text
@@ -54,7 +44,9 @@ Keep the original folder names. Each folder must include SKILL.md and references
 Ask before overwriting same-name folders. Then list dirs and check name matches folder.
 ```
 
-### B. GitHub
+### B. Drop the GitHub URLs
+
+Tell Grok:
 
 ```text
 Install the 4 skills from these URLs, keep the original folder names:
@@ -63,8 +55,6 @@ https://github.com/dgu0323/crypto-survival-skills/tree/main/crypto-niche-builder
 https://github.com/dgu0323/crypto-survival-skills/tree/main/crypto-profit-system
 https://github.com/dgu0323/crypto-survival-skills/tree/main/crypto-project-triage
 ```
-
-Existing same-name folders abort the install. Private repos need `GITHUB_TOKEN` or `GH_TOKEN`.
 
 ## Use (short triggers)
 

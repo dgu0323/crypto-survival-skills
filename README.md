@@ -3,11 +3,7 @@
 一套给 Grok 用的工作流 skill，用来在 Web3 / Crypto 里做位置判断，而不是喊单。
 
 - 适用：Grok 用户技能目录（`.grok/skills/`）
-- 语言：[中文 README](./README.md) · [English README](./README.en.md)
-
-Skill 正文以中文写指令，**输出跟随用户语言**。不要再装一套英文 skill。
-
-用户 prompt 只带材料。输出格式写在 `SKILL.md` 里，不要在对话里复述模板。
+- 语言：[中文](./README.md) · [English](./README.en.md)
 
 ## 来源与声明
 
@@ -40,14 +36,6 @@ Skill 正文以中文写指令，**输出跟随用户语言**。不要再装一�
 
 ## 安装
 
-目标路径：
-
-```text
-/home/workdir/.grok/skills/<skill-name>/
-```
-
-每个 skill 一个文件夹，文件夹名 = `SKILL.md` 的 `name`。`references/` 必须一起拷。装完后**新开一轮对话**再测。
-
 ### 方法 A：把 zip 丢给 Grok
 
 ```text
@@ -56,7 +44,9 @@ Skill 正文以中文写指令，**输出跟随用户语言**。不要再装一�
 同名已存在先问我再覆盖。装完列出目录并校验 name 与文件夹名一致。
 ```
 
-### 方法 B：GitHub
+### 方法 B：丢 GitHub 地址
+
+告诉 Grok
 
 ```text
 从这 4 个地址安装 skill，保持原文件夹名：
@@ -65,8 +55,6 @@ https://github.com/dgu0323/crypto-survival-skills/tree/main/crypto-niche-builder
 https://github.com/dgu0323/crypto-survival-skills/tree/main/crypto-profit-system
 https://github.com/dgu0323/crypto-survival-skills/tree/main/crypto-project-triage
 ```
-
-同名目录已存在时安装会失败。私有仓库需要 `GITHUB_TOKEN` 或 `GH_TOKEN`。
 
 ## 使用（短触发）
 
