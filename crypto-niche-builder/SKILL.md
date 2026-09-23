@@ -3,8 +3,8 @@ name: crypto-niche-builder
 description: Help the user pick a durable crypto food-chain niche besides only buying tokens. Short trigger is the skill name plus optional skills, hours, or a current narrative. Use when planning Web3 career, side income, 90-day plans, or asking how to survive if prices stop rising. Triggers include niche, income paths, more than buying, product, service, content, research, community, early contribution, connect two worlds, 90 days, intersection.
 metadata:
   type: workflow
-  version: "1.4"
-  source: ZTZZ Slow Is Fast 2026-09-22
+  version: "1.5"
+  source: ZTZZ Slow Is Fast 2026-09-22 plus 2026-09-23 90-day review patch
 ---
 
 # Crypto Niche Builder
@@ -57,8 +57,8 @@ Match the user's language. Chinese in, Chinese out. English in, English out. Mix
 必须按用户给的每周小时数缩规模。每周约 8 小时：禁止「生产级 SDK / 完整客户端 / 同时覆盖两条链」。
 - 本周（天 1–7）：一个能做完的最小动作，不是「先收集 20 个问题」。
 - 天 1–30：交叉点只留一条链、一个卡点。问题可以记，但不能代替交付。
-- 天 31–60：一件最小可复用物（检查单、对照表、脚本、一篇带复现步骤的踩坑），不是平台。
-- 天 61–90：用那件东西换第一笔钱或一次明确拒绝。
+- 天 31–60：一件最小可复用物（检查单、对照表、脚本、一篇带复现步骤的踩坑），不是平台。交付与修正公开留痕，可复查的记录就是简历。
+- 天 61–90：用那件东西换第一笔钱或一次明确拒绝。成交后复盘五问：对方为什么找到你、真正买的是什么、哪部分交付最有价值、哪步可重复、下次怎么降本提质。
 
 ## 需求门（先过这关再写 90 天）
 

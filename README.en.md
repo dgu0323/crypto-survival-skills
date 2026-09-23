@@ -2,8 +2,6 @@
 
 Workflow skills for Grok. They locate you in the Web3 / crypto food chain. They do not pick tokens.
 
-- Pack version: 1.5 (2026-09-23)
-- Skill versions: decode 1.4 · triage 1.4 · niche 1.4 · profit-system 1.5
 - Install into the Grok user skills directory (`.grok/skills/`)
 - Languages: [Chinese README](./README.md) · [English README](./README.en.md)
 
@@ -24,12 +22,12 @@ This pack is a **third-party workflow wrapper**, not an official ZTZZ release an
 
 ## The four skills
 
-| Directory | Version | Use when | You provide |
-|---|---|---|---|
-| `crypto-incentive-decode` | 1.4 | Posts, chats, KOLs, "bullish long term" | Skill name + link or paste |
-| `crypto-project-triage` | 1.4 | Protocols, airdrops, TGEs, buy vs use vs work | Skill name + ticker or CA |
-| `crypto-niche-builder` | 1.4 | Income beyond buying tokens; 90-day plan | Skill name + optional skills / hours / narrative |
-| `crypto-profit-system` | 1.5 | Joining a team, full-time, adding size, token salary, FOMO | Skill name + what you are about to do |
+| Directory | Problem it solves | You provide |
+|---|---|---|
+| `crypto-incentive-decode` | Behind a post or group message: who gets paid, who is exiting, whose bill you foot if you join | Skill name + link or paste |
+| `crypto-project-triage` | "Good project" gets read as "buy the token"; splits good project / good token / good opportunity | Skill name + ticker or CA |
+| `crypto-niche-builder` | Buying tokens is your only payer; picks a niche someone already pays for, down to a 90-day plan | Skill name + optional skills / hours / narrative |
+| `crypto-profit-system` | Every income rides the same rally and rent money mixes with chips; a structural audit before joining, sizing up, or FOMO | Skill name + what you are about to do |
 
 Routing:
 
@@ -56,14 +54,7 @@ Keep the original folder names. Each folder must include SKILL.md and references
 Ask before overwriting same-name folders. Then list dirs and check name matches folder.
 ```
 
-### B. Copy files
-
-```bash
-cp -R crypto-incentive-decode crypto-project-triage crypto-niche-builder crypto-profit-system \
-  /home/workdir/.grok/skills/
-```
-
-### C. GitHub
+### B. GitHub
 
 ```text
 Install the skill from https://github.com/<owner>/<repo>/tree/main/crypto-incentive-decode
@@ -84,7 +75,7 @@ Use crypto-project-triage on $BP
 
 ```text
 Use crypto-niche-builder
-Java backend, about 8 hours a week, looking at Backpack $BP
+RobinHood Chain ecosystem
 ```
 
 ```text
@@ -101,21 +92,6 @@ Decode this post first. If it is still worth a look, run triage. I am a retail b
 ```text
 Use niche-builder to pick the work, then profit-system to keep rent money off the same narrative.
 ```
-
-## Confirm and edit
-
-```text
-List my current user skills only.
-```
-
-Decode must fetch verification itself and list sources. Triage must split three columns. Niche must include a this-week action. Profit-system must open with a default action.
-
-When editing files:
-
-- `name` equals the folder name (lowercase, digits, single hyphens)
-- `description` is one unquoted line; do not use `: ` (colon-space)
-- Triggers belong in `description`
-- Validate: `bash /root/.grok/skills/skill-creator/scripts/validate-skill.sh /home/workdir/.grok/skills/<skill-name>`
 
 ## Do not use this pack to
 

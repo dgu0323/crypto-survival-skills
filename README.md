@@ -2,8 +2,6 @@
 
 一套给 Grok 用的工作流 skill，用来在 Web3 / Crypto 里做位置判断，而不是喊单。
 
-- 包版本：1.5（2026-09-23）
-- Skill 版本：decode 1.4 · triage 1.4 · niche 1.4 · profit-system 1.5
 - 适用：Grok 用户技能目录（`.grok/skills/`）
 - 语言：[中文 README](./README.md) · [English README](./README.en.md)
 
@@ -24,12 +22,12 @@ Skill 正文以中文写指令，**输出跟随用户语言**。不要再装一�
 
 ## 四个 skill
 
-| 目录 | 版本 | 什么时候用 | 你只需要给 |
-|---|---|---|---|
-| `crypto-incentive-decode` | 1.4 | 推文、群消息、KOL、「长期看好」 | 点名 + 链接或原文 |
-| `crypto-project-triage` | 1.4 | 协议、空投、TGE、值不值得买/用/打工 | 点名 + 标的或 CA |
-| `crypto-niche-builder` | 1.4 | 不想只靠买币、要 90 天计划 | 点名 + 可选技能/时间/正在看的叙事 |
-| `crypto-profit-system` | 1.5 | 入职、全职、加仓、工资发币、FOMO | 点名 + 你准备干什么 |
+| 目录 | 解决什么问题 | 你只需要给 |
+|---|---|---|
+| `crypto-incentive-decode` | 一条推文/群消息背后：谁在赚钱、谁在退出、你参与是在付谁的账 | 点名 + 链接或原文 |
+| `crypto-project-triage` | 「项目不错」被直接当成「币该买」；好项目、好代币、好机会分开裁决 | 点名 + 标的或 CA |
+| `crypto-niche-builder` | 只会买币、没有第二个付款者；选一个已有人付钱的生态位，落到 90 天计划 | 点名 + 可选技能/时间/正在看的叙事 |
+| `crypto-profit-system` | 收入全绑在同一轮上涨、生活费和筹码混在一起；入职/加仓/FOMO 前先过结构审计 | 点名 + 你准备干什么 |
 
 路由：
 
@@ -58,22 +56,7 @@ Skill 正文以中文写指令，**输出跟随用户语言**。不要再装一�
 同名已存在先问我再覆盖。装完列出目录并校验 name 与文件夹名一致。
 ```
 
-### 方法 B：自己拷
-
-```bash
-cp -R crypto-incentive-decode crypto-project-triage crypto-niche-builder crypto-profit-system \
-  /home/workdir/.grok/skills/
-```
-
-```text
-.grok/skills/
-├── crypto-incentive-decode/   SKILL.md + references/
-├── crypto-project-triage/     SKILL.md + references/
-├── crypto-niche-builder/      SKILL.md + references/
-└── crypto-profit-system/      SKILL.md + references/
-```
-
-### 方法 C：GitHub
+### 方法 B：GitHub
 
 ```text
 从 https://github.com/<owner>/<repo>/tree/main/crypto-incentive-decode 安装 skill
@@ -96,7 +79,7 @@ https://x.com/……
 
 ```text
 用 crypto-niche-builder
-Java 后端，每周大约 8 小时，刚在看 Backpack $BP
+RobinHood Chain 生态
 ```
 
 ```text
@@ -113,21 +96,6 @@ Java 后端，每周大约 8 小时，刚在看 Backpack $BP
 ```text
 用 niche-builder 选题，再用 profit-system 把生活费和高风险资金分开。
 ```
-
-## 确认与修改
-
-```text
-列出我当前的用户 skill，只要自定义的。
-```
-
-应看到上述 4 个名字。decode 必须自己查核验结果并列来源；triage 必须三栏分开；niche 必须有本周动作；profit-system 第一句必须是默认动作。
-
-改文件时：
-
-- `name` = 文件夹名，小写字母、数字、单个连字符
-- `description` 一行，不要 `: `（冒号+空格）
-- 触发词写在 `description` 里
-- 校验：`bash /root/.grok/skills/skill-creator/scripts/validate-skill.sh /home/workdir/.grok/skills/<skill-name>`
 
 ## 不要用这套 skill 做什么
 

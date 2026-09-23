@@ -1,10 +1,10 @@
 ---
 name: crypto-profit-system
-description: Build or audit a personal crypto profit system covering named income sources, role contracts, cashflow isolation, and structural risk rules. Use before joining a project, going full-time Web3, adding size, mixing job plus token, playing memes as a system, or after a FOMO episode. Triggers include profit system, cashflow, role mixing, risk structure, living expenses, slow is fast, five sentences before joining, oversized position, stop betting your life, meme monitoring as income.
+description: Build or audit a personal crypto profit system covering named income sources, role contracts, cashflow isolation, and structural risk rules. Use before joining a project, going full-time Web3, adding size, mixing job plus token, playing memes as a system, or after a FOMO episode. Triggers include profit system, cashflow, role mixing, risk structure, living expenses, slow is fast, five sentences before joining, oversized position, stop betting your life, meme monitoring as income, visible evidence, public track record.
 metadata:
   type: workflow
-  version: "1.5"
-  source: ZTZZ Slow Is Fast 2026-09-22 plus 2026-09-23 token-class patch
+  version: "1.6"
+  source: ZTZZ Slow Is Fast 2026-09-22 plus 2026-09-23 token-class patch plus 2026-09-23 evidence + niche-referral patch
 ---
 
 # Personal Crypto Profit System
@@ -42,7 +42,13 @@ meme 监控如果没有独立付款者（研究订阅、工具费、服务费）
 「现货 + 合约 + 同板块 meme」不是三条路。
 「项目工资 + 必须把工资买回项目币」也不是两条路。
 
-## 3. 参与前必须写下的五句话
+## 3. 把成长变成别人看得见的证据
+
+判断要持续公开发布、可被复查；不留痕的能力等于没有。
+一次完整的失败复盘同样建立信任：当时为什么判断、后来什么事实改变、下次怎么调整。
+公开记录是币圈最硬的简历，比名校和自我介绍更有用。
+
+## 4. 参与前必须写下的五句话
 
 1. 我现在是什么身份
 2. 我准备投入什么
@@ -53,14 +59,14 @@ meme 监控如果没有独立付款者（研究订阅、工具费、服务费）
 喜欢产品不等于该免费打工。替项目工作不等于必须把工资买回它的代币。
 看懂一根日K不等于拥有可重复的付款者。
 
-## 4. 现金流是判断力的氧气
+## 5. 现金流是判断力的氧气
 
 分开四桶：生活费、家庭储备、救急金、重新开始的资本。
 任何要求把它们绑在一起押进去的机会，都在利用焦虑。
 RWA / 净值代币（如 ONyc 一类）可以进「储备候选」，仍要单独写清赎回、冻结、赔付风险，禁止和生活费混用。
 Meme 只能进「重新开始的资本」里事先切出来的一小格；切不出来就不要做。
 
-## 5. 用结构管人性，不用意志力
+## 6. 用结构管人性，不用意志力
 
 - 生活资金与高风险资金物理隔离
 - 临时加投入必须经过冷静期
@@ -69,7 +75,7 @@ Meme 只能进「重新开始的资本」里事先切出来的一小格；切不
 - 连续出现计划外错误时，自动暂停新风险
 - 把监控当系统时，先规定「不交易日」和「信号不能动哪三桶钱」
 
-## 6. 输出顺序（固定，写短，先给裁决）
+## 7. 输出顺序（固定，写短，先给裁决）
 
 1. **默认动作** — 第一句就写：今晚不做 / 只用产品不碰币 / 等待核验。必须对得上用户刚说的那件事（加仓、入职、买回工资币、FOMO）。禁止先填表后下结论。
 2. **这笔钱叫什么** — 三行内写清：你想赚的是哪一种钱、付款者是谁、失败时谁买单。不要用「未知接盘盘口」这类黑话；说人话。空着的主业收入不要做成空表格占位。
@@ -84,3 +90,4 @@ Meme 只能进「重新开始的资本」里事先切出来的一小格；切不
 
 需要提醒时最多引用 `references/ten-lines.md` 里的一句，不要每次全贴。
 标的要拆「好项目 / 好代币 / 好机会」时，转 `crypto-project-triage`，不要在本 skill 里做十二条。
+审计发现「只剩价差一个付款者、没有任何生态位」时，转 `crypto-niche-builder` 做选位和 90 天计划，不要在本 skill 里展开七条路。
